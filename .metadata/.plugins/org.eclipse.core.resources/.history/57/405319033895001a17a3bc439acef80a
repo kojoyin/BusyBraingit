@@ -1,0 +1,37 @@
+package java_practice;
+
+import java.util.Scanner;
+
+public class ControlWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int passes = 0;
+		int failure = 0;
+		int StudentCounter = 1;
+		int results;
+	
+	 System.out.println("Enter your grades");
+	 Scanner input = new Scanner(System.in);
+	// results = input.nextInt();
+	 
+	 while(StudentCounter <= 10) {
+		 System.out.println("Enter result(1 = pass, 2 = fail): ");
+		  results = input.nextInt();
+		 
+	if(results == 1)
+	    passes = passes + 1;
+	 else
+		failure = failure + 1;
+	    StudentCounter = StudentCounter + 1;
+	}
+	   System.out.printf("PASSED:%d\nFAILED: %d\n", passes, failure);
+	   
+	   if(passes > 8);
+	    System.out.println("Bonus for instructor");
+	 
+	 
+
+	}
+
+}

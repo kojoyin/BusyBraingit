@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package java_practice;
+
+/**
+ * @author user
+ *
+ */
+public class Controls {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

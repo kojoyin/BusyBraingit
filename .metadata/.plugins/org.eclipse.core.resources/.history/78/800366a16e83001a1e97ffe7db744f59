@@ -1,0 +1,19 @@
+package java_practice;
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int boys = 20;
+    int girls = 40;
+    if( boys >= 10 )
+    System.out.println("you can come in");
+    else
+     System.out.println("please be careful");
+    	
+    	
+    	
+    }
+	}
+
+

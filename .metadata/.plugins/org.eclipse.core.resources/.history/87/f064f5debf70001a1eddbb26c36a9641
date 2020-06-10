@@ -1,0 +1,28 @@
+package java_practice;
+
+public class Learning {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	
+		for (int j=0; j<=2; j++)
+		
+		                                                  
+		{
+			System.out.print(j + " ");
+			
+		}	
+			
+		System.out.println();
+				
+				
+			
+			
+			
+		
+		
+		
+		
+	}
+}

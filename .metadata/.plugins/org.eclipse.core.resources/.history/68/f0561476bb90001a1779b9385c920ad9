@@ -1,0 +1,33 @@
+package java_practice;
+import java.util.Scanner;
+
+public class IfDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner obj = new Scanner(System.in);
+		   System.out.print("\nPlease enter your age: ");
+		   int userAge = obj.nextInt();
+
+		   if(userAge < 0 || userAge > 100){
+		   System.out.println("Invalid Age");
+		   System.out.println("Age must be between 0 and 100");
+		   }
+
+		   else if (userAge < 18)
+		        System.out.println("Sorry you are underage");
+		   else if (userAge < 21)
+		        System.out.println("You need Parental Consent");
+		   else {
+		        System.out.println("Congratulations!");
+		        System.out.println("You may Sing up for the even!");
+		      }
+		        
+		    
+		    
+
+
+
+	}
+
+}

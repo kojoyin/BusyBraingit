@@ -1,0 +1,28 @@
+package java_practice;
+
+
+public class Control{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int StudentGrade = 90;
+       if(StudentGrade == 90) 
+    	   System.out.println("A");
+       else 
+    	   if (StudentGrade == 80)
+    		   System.out.println("B");
+    	   else
+    		   if (StudentGrade == 70)
+    			   System.out.println("C");
+    		   else 
+    	    	   System.out.println("No Score");
+       
+    			   
+    		   
+       
+	
+	}		   
+    	   
+       	}
+
+

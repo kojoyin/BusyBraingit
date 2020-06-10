@@ -1,0 +1,121 @@
+package java_practice;
+
+import java.util.Arrays;
+
+import java.util.Scanner;
+
+public class ControlWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int passes = 0;
+		int failure = 0;
+		int StudentCounter = 1;
+		//int results;
+	
+	// System.out.println("Enter your grades");
+	 Scanner input = new Scanner(System.in);
+	// results = input.nextInt();
+	 
+	 //while(StudentCounter <= 10) {
+		// System.out.println("Enter result(1 = pass, 2 = fail): ");
+		  ///results = input.nextInt();
+		 
+	//if(results == 1)
+	    //passes = passes + 1;
+	 //else
+		//failure = failure + 1;
+	    //StudentCounter = StudentCounter + 1;
+	//}
+	  // System.out.printf("PASSED:%d\nFAILED: %d\n", passes, failure);
+	   
+	   //if(passes > 8);
+	    //System.out.println("Bonus for instructor");
+	    
+	    
+	    
+	    
+	    
+	   /* int counter = 1;
+	    int result = 0;
+	    int passed = 0;
+	    int failed = 0;
+	     
+	    
+	    
+	    Scanner inp = new Scanner(System.in);
+	    System.out.println("Enter result");
+	    result = inp.nextInt();
+
+	    while(counter <= 10)
+	     System.out.println(result + "Pass");
+	     result = inp.nextInt();
+	      
+	    if(result > 50 )
+	      System.out.println(result + "P");
+	    
+	    else {
+	    	System.out.println(result + "F");
+	    
+	     counter++;
+	    }*/
+	 
+	 
+	 /*int myLength = "Hello World".length();
+	 System.out.println(myLength);
+	 
+	 String uCase = "Hello World".toUpperCase();
+	 System.out.println(uCase);
+	    
+	 String firstSubString = "Hello World".substring(1,8);
+	 System.out.println(firstSubString); 
+	 
+	 char myChar = "Hello World".charAt(3);
+	 System.out.println(myChar);*/
+	 
+	 
+	 
+	// boolean equalsorNot = "This is jamie".equals("This is Jamie");
+	 
+	 //boolean equalsorNot2 = "This is jamie".equals("Hello World");
+	 //System.out.println(equalsorNot);
+	 
+	 //String names = "Peter, Andy, Paul, Ellen, Jamie";
+	 //String[] splitNames = names.split(",");
+	 //System.out.println(names);
+	 
+	//int[] userAge2 = {21, 22, 23, 24, 25};
+	//System.out.println(userAge2);
+	 
+	 //int Arrays;
+	 //int[] arr1 = {0,2,4,6,8,10};
+	 //int[] arr2 = {0,2,4,6,8,10};
+	 //int[] arr3 = {10,8,6,4,2,0};
+	// boolean result1 = Arrays.equals(arr1, arr2);
+	 //boolean result2 = Arrays.equals(arr1, arr3);
+	 
+	 
+	// int[] numbers = {1, 2, 3, 4, 5};
+
+	 //System.out.println(Arrays.toString(numbers));
+
+	 //int [] numbers2 = {12, 1, 5, -2, 16, 14};
+	 //Arrays.sort(numbers2);
+	 //System.out.println(Arrays.toString(numbers2));
+	// System.out.printf( "The answer for %.3f divided by %d is %.2f.",  + 5.45, 3, 5.45/3);
+	
+	 System.out.printf( "%8.3f", 12.4);
+	 System.out.println();
+	 
+	 int results = 65;
+	 System.out.println("You scored " + results + " marks for your test.");
+	 
+	 System.out.println("The sum of 50 and 2 is " + (50 + 2) + ".");
+	
+	}
+	
+
+}
+
+
+   

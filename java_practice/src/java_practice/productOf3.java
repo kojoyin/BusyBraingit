@@ -1,0 +1,21 @@
+package java_practice;
+
+public class productOf3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 1;
+		int product = 1;
+
+		while (num <= 100) {
+			product = product * 3;
+			if(product > 100) {
+				System.out.print(num);
+				break;
+			}
+			 num++;
+			
+		}
+	}
+
+}

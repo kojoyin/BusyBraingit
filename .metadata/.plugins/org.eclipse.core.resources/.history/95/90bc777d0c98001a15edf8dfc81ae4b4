@@ -1,0 +1,85 @@
+package java_practice;
+
+import java.util.Scanner;
+
+public class ControlWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int passes = 0;
+		int failure = 0;
+		int StudentCounter = 1;
+		int results;
+	
+	// System.out.println("Enter your grades");
+	 Scanner input = new Scanner(System.in);
+	// results = input.nextInt();
+	 
+	 //while(StudentCounter <= 10) {
+		// System.out.println("Enter result(1 = pass, 2 = fail): ");
+		  ///results = input.nextInt();
+		 
+	//if(results == 1)
+	    //passes = passes + 1;
+	 //else
+		//failure = failure + 1;
+	    //StudentCounter = StudentCounter + 1;
+	//}
+	  // System.out.printf("PASSED:%d\nFAILED: %d\n", passes, failure);
+	   
+	   //if(passes > 8);
+	    //System.out.println("Bonus for instructor");
+	    
+	    
+	    
+	    
+	    
+	   /* int counter = 1;
+	    int result = 0;
+	    int passed = 0;
+	    int failed = 0;
+	     
+	    
+	    
+	    Scanner inp = new Scanner(System.in);
+	    System.out.println("Enter result");
+	    result = inp.nextInt();
+
+	    while(counter <= 10)
+	     System.out.println(result + "Pass");
+	     result = inp.nextInt();
+	      
+	    if(result > 50 )
+	      System.out.println(result + "P");
+	    
+	    else {
+	    	System.out.println(result + "F");
+	    
+	     counter++;
+	    }*/
+	 
+	 
+	 int myLength = "Hello World".length();
+	 System.out.println(myLength);
+	 
+	 String uCase = "Hello World".toUpperCase();
+	 System.out.println(uCase);
+	    
+	 String firstSubString = "Hello World".substring(1,8);
+	 System.out.println(firstSubString); 
+	 
+	 char myChar = "Hello World".charAt(3);
+	 System.out.println(myChar);
+	 
+	 
+	 
+	 boolean equalsorNot = "This is jamie".equals("This is Jamie");
+	 
+	 boolean equalsorNot2 = "This is jamie".equals("Hello World");
+
+	}
+
+}
+
+
+   

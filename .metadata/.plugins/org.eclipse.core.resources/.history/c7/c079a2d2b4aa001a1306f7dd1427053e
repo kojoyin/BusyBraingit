@@ -1,0 +1,198 @@
+
+  public class FirstCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int num = 5;
+        //System.out.println("Hello, World!");
+        // System.out.println(num);
+		/*int n = 8;
+	    
+	    if(n==0) {
+	       System.out.println("Nothing");
+	       System.out.println("Bye");
+	    }
+	     else if(n%2==0) {
+	       System.out.println("Even");
+	     }
+	     else {
+	        System.out.println("odd");
+	     }*/
+		
+		//int i = 3;
+		/*String n =  "A";
+		
+		switch (n) 
+		{
+		case "A":
+		System.out.println("one");
+		case "ff":
+		System.out.println("two");
+		case "ct":
+		System.out.println("three");
+		case "rr":
+		System.out.println("Four");
+		break;
+		case "ss":
+		System.out.println("Five");
+		default:
+		System.out.println("No Match");
+		*/
+		/*int j = 1;
+		while( j <=5) 
+		{
+		 System.out.println("Hello");
+		 j++;
+		}
+		
+		
+		for(int i =1; i <= 5; i++)
+		
+		 System.out.println("Razaq!");
+		 */
+	/*for(int j = 1; j <= 5; j++) { // the first for loop is the ROW
+	   for(int i= 1; i <= 4; i++) { // the inside for loop is the COLUMN
+		   System.out.print("* ");
+	   }
+	        System.out.println();
+	 }*/
+	   
+	/*for(int i = 1; i <= 7; i++) {
+		
+	
+	for(int j = 1; j <= 7; j++) {
+		System.out.print(j +" ");
+	   }
+	
+	    System.out.println();
+	}
+	 
+	 */
+	
+		/*for(int i=1; i<=6; i++){
+			   for(int j=1; j<=i; j++){
+			     System.out.print(j +" ");
+			   }
+			    System.out.println();
+			}
+		    */
+		
+		for(int i=1; i<=5; i++){
+			   for(int j=1; j<=i; j++){
+			     System.out.print(j +" ");
+			   }
+			    System.out.println();
+			}
+		
+	
+		for(int i=1; i<=4; i++){
+			if (i == 1) {
+				System.out.println("A");
+			} else if (i == 2) {
+				System.out.println("A B");
+			} 
+			else  if(i == 3) {
+				System.out.println("A B C");
+			}
+			else {
+				System.out.println("A B C D");
+			}
+			
+			
+		}
+	 
+		for(int i=1; i<=4; i++){
+			if(i==1||i ==4) {
+			   for(int j=1; j<=4; j++){
+			     System.out.print("$ ");
+			     
+			     }
+		         }
+			
+		         else {
+		    		 System.out.print("$");
+		    		 System.out.print(" ");
+				     System.out.print(" ");
+				     System.out.print(" ");
+				     System.out.print(" ");
+				     System.out.print(" ");
+				     System.out.print("$");
+				    }
+			         System.out.println();
+		        } 
+		
+		      double  c = 13.0;
+		      double  d = 3.0;
+			  double  f = 4.0;
+		
+		System.out.println( Math.sqrt( c + d * f ) );
+	}
+  }	
+		
+             
+  
+  
+  
+  /* for (int i=1; i<=20; i++) {
+			  
+			  if(i==4||i==6) {
+				  continue;
+			  }
+			  System.out.println("Value is " + i);
+		  }
+		    	 
+for (int i=1; i<=20; i++) {
+			  
+			  if(i>10) {
+				 break;
+			  }
+			  System.out.println("Value is " + i);
+		  }
+	
+	}
+	
+
+}
+*/
+		
+		
+		 /* public class FirstCode{  // things expected in a class are variables,methods,constructors,
+			  
+			 
+			  
+			  int num1;
+			  int num2;
+			  int result;
+			  
+			  public void perform()   // A METHOD MUST HAVE CURLY BRACES:
+			   { 
+			    result = num1 + num2;
+			   }
+			 			  
+			  
+			
+		  
+		  public static void main(String[] args) {// Execution is done sequentially, so the first line that executed is the main funtion:
+              //Things expected in main Fuction are invocation,creation of an object: 
+              // once an object is created it will automatically load variables,methods etc to the memory at the backend	  
+		        
+
+               //  FirstCode NewObj = new FirstCode(); // objects knows something and it does something too.
+               //  NewObj.num1 =30;
+                 //NewObj.num2 = 80;
+                 
+                 
+                 //NewObj.perform();
+                 //System.out.println(NewObj.result);
+
+		  
+		  
+		  }
+		  
+
+
+
+
+		  }//end firstcode
+        */
+

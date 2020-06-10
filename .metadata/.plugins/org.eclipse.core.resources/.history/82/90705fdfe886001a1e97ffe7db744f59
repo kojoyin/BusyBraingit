@@ -1,0 +1,23 @@
+package java_practice;
+
+public class Interest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		  int numberOfYears = 10;
+		  double  amount;
+		  double principal = 1000.0;
+		  double rate = 0.5;
+
+		  System.out.printf("%s%10s%n","number of Years", "Amount"); 
+		  for(int i = 1;i <= numberOfYears; i++)
+		  {
+		  principal = principal + principal * 0.05;
+		 
+           System.out.printf("%5d %21.2f%n",i,principal);
+		  }
+
+	}
+
+}

@@ -1,0 +1,77 @@
+package java_practice;
+
+public class ClassWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       // int sum = 0;
+        //int count = 1;
+        
+       // for(;count<100; count++) {
+        	
+   //        	if(count%5 == 0);
+        //System.out.println();
+        	//	sum = sum + count;
+        	 //System.out.println(sum);
+       // int j = 0;
+        //for(int i = 1; i<=100; i++) {
+        	
+        	//if(i%5== 0) {
+        	//System.out.println(i);
+        	//j = j+ 1;
+            //}
+            //if(j==11) {
+            	//break;
+            //}
+        	
+        	
+        
+        
+       // }
+        
+        
+       /* int j =0;
+        for(int i = 1; i <= 100; i++){
+             if(i%5 !=0){
+             System.out.println("Skip to the next iteration");
+              continue;
+             }
+
+            System.out.println(i);
+            System.out.println("Dont skip to the next iteration");
+
+             j= j+ 1;
+             if(j==11){
+             break;
+        }*/
+
+
+        int sum = 0;
+        int count = 1;   
+        int k = 0;
+
+        for(int i = 1; i <= 100; i++){
+         if(i%5 != 0);
+         continue;
+       
+       }
+         System.out.println();
+
+         k = k + 1;
+         if(k == 11) {
+        	 break;
+        	 
+         }
+        
+          
+}
+         
+}
+        
+        
+      
+	
+
+
+
+

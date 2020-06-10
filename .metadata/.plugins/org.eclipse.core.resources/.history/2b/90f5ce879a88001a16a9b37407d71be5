@@ -1,0 +1,38 @@
+package java_practice;
+
+public class StaticVar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Family family = new Family("Razaq","Akinsanya", 25);
+		System.out.println(family.getFname());
+		System.out.println(Family.getLname());
+		System.out.println(family.getAge());
+		System.out.println();
+
+	}
+
+}
+
+class Family{
+	
+	public String getFname() {
+		return fname;
+	}
+	public static String getLname() {
+		return lname;
+	}
+	public int getAge() {
+		return age;
+	}
+	String fname;
+	static String lname;
+	int age;
+	public Family(String fname, String lname, int age){
+		this.fname = fname;
+		Family.lname = lname;
+		this.age = age;
+		
+	}
+}
